@@ -1,0 +1,6 @@
+services:
+  bbl-api:
+    build: .
+    container_name: bbl-api
+    ports:
+      - "8080:8080"
